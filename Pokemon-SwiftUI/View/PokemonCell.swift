@@ -1,17 +1,19 @@
 import SwiftUI
 
 struct PokemonCell: View {
+    let pokemon: Model
+    
     var body: some View {
         ZStack {
             VStack(alignment: .leading) {
-                Text("Bulbasaur")
+                Text(pokemon.name)
                     .font(.headline)
                     .foregroundStyle(.white)
                     .padding(.top, 8)
                     .padding(.leading)
                 
                 HStack {
-                    Text("Poison")
+                    Text(pokemon.type)
                         .font(.subheadline)
                         .bold()
                         .foregroundStyle(.white)
@@ -23,7 +25,7 @@ struct PokemonCell: View {
                         }
                         .frame(width: 100, height: 24)
                     
-                    Image("bulbasaur")
+                    Image(pokemon.imageUrl)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 68, height: 68)
@@ -38,5 +40,5 @@ struct PokemonCell: View {
 }
 
 #Preview {
-    PokemonCell()
+    PokemonCell(pokemon: Model.pokemon[2])
 }

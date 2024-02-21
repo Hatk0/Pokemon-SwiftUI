@@ -11,7 +11,7 @@ struct PokemonView: View {
             ScrollView {
                 LazyVGrid(columns: columns, spacing: 15) {
                     ForEach(0..<150) { _ in
-                        PokemonCell()
+                        PokemonCell(pokemon: Model.pokemon[2])
                     }
                 }
             }
