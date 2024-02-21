@@ -12,6 +12,7 @@
 		731EC4322B865F930098947D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731EC4312B865F930098947D /* Assets.xcassets */; };
 		731EC4352B865F930098947D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 731EC4342B865F930098947D /* Preview Assets.xcassets */; };
 		731EC4402B8660C00098947D /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EC43F2B8660C00098947D /* PokemonCell.swift */; };
+		731EC4422B8667400098947D /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731EC4412B8667400098947D /* PokemonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		731EC4312B865F930098947D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		731EC4342B865F930098947D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		731EC43F2B8660C00098947D /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		731EC4412B8667400098947D /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				731EC43F2B8660C00098947D /* PokemonCell.swift */,
+				731EC4412B8667400098947D /* PokemonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731EC4422B8667400098947D /* PokemonView.swift in Sources */,
 				731EC4302B865F910098947D /* ContentView.swift in Sources */,
 				731EC42E2B865F910098947D /* Pokemon_SwiftUIApp.swift in Sources */,
 				731EC4402B8660C00098947D /* PokemonCell.swift in Sources */,
